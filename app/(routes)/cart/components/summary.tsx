@@ -19,7 +19,7 @@ const Summary = () => {
 
     const onCheckout = async () =>{
         const response = await axios.post(`${process.env.NEXT_PUBLIC_API_URL}/checkout`, {
-            productId: items.map((item)=>item.id)
+            productIds: items.map((item)=>item.id)
         })
         window.location = response.data.url
     }
@@ -48,7 +48,7 @@ const Summary = () => {
                     <Currency value={totalPrice}/>
                 </div>
             </div>
-            <Button onClick={onCheckout} className='w-full mt-6'>Checkout</Button>
+            <Button disabled={items.length === 0} onClick={onCheckout} className='w-full mt-6'>Checkout</Button>
         </div>
     )
 }

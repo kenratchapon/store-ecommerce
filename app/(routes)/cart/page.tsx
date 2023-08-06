@@ -9,6 +9,16 @@ type Props = {}
 
 const CartPage = (props: Props) => {
     const cart= useCart()
+    const [isMouted, setIsMouted] = useState(false)
+
+    useEffect(()=>{
+      setIsMouted(true)
+    },[])
+  
+    if(!isMouted){
+      return null
+    }
+    
     return (
         <div className='bg-white'>
             <Container>
