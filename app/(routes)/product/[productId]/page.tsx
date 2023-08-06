@@ -25,7 +25,7 @@ const ProductPage: React.FC<ProductPageProps> = async ({
   if (!product) {
     return null;
   }
-  console.log('product', product)
+  
   return (
     <div className="bg-white">
       <Container>
