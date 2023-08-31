@@ -1,34 +1,29 @@
-This is a [Next.js](https://nextjs.org/) project bootstrapped with [`create-next-app`](https://github.com/vercel/next.js/tree/canary/packages/create-next-app).
+# Store Ecommerce Project
 
-## Getting Started
+This project is the culmination of my learning journey from a tutorial on YouTube: [Tutorial Link](https://www.youtube.com/watch?v=5miHyP6lExg&t=18s&ab_channel=CodeWithAntonio). The tutorial provided the guidance to create a Store Dashboard.
 
-First, run the development server:
+## View the Project
+You can view the web application live at: [https://ken-store-ecommerce.vercel.app/](https://ken-store-ecommerce.vercel.app/)
 
-```bash
-npm run dev
-# or
-yarn dev
-# or
-pnpm dev
-```
 
-Open [http://localhost:3000](http://localhost:3000) with your browser to see the result.
+## Learning Highlights
 
-You can start editing the page by modifying `app/page.tsx`. The page auto-updates as you edit the file.
+During the process of creating this project, I gained valuable insights into several key areas:
 
-This project uses [`next/font`](https://nextjs.org/docs/basic-features/font-optimization) to automatically optimize and load Inter, a custom Google Font.
+1. **Full Stack Web Development with Next.js 13:** I learned how to build a full stack web application using Next.js 13. The tutorial covered various aspects of routing within the Next.js 13 framework.
 
-## Learn More
+2. **CSS Styling Libraries:** The project introduced me to the utilization of CSS libraries such as Shadcn UI and Tailwind CSS for designing and styling the user interface.
 
-To learn more about Next.js, take a look at the following resources:
+3. **MySQL Database Management:** I acquired a foundational understanding of working with MySQL databases. The project incorporated the use of PrismaDB as a database management tool.
 
-- [Next.js Documentation](https://nextjs.org/docs) - learn about Next.js features and API.
-- [Learn Next.js](https://nextjs.org/learn) - an interactive Next.js tutorial.
+4. **Authentication Implementation:** The tutorial comprehensively explained the process of implementing authentication using Clerk Authentication. This allowed me to establish secure user authentication within the application.
 
-You can check out [the Next.js GitHub repository](https://github.com/vercel/next.js/) - your feedback and contributions are welcome!
+## Tutorial Source
 
-## Deploy on Vercel
+The tutorial source that guided this project is available on YouTube: [Tutorial Link](https://www.youtube.com/watch?v=5miHyP6lExg&t=18s&ab_channel=CodeWithAntonio).
 
-The easiest way to deploy your Next.js app is to use the [Vercel Platform](https://vercel.com/new?utm_medium=default-template&filter=next.js&utm_source=create-next-app&utm_campaign=create-next-app-readme) from the creators of Next.js.
+Feel free to explore the tutorial to gain an in-depth understanding of the development process behind this project.
 
-Check out our [Next.js deployment documentation](https://nextjs.org/docs/deployment) for more details.
+---
+
+![image](https://github.com/kenratchapon/store-dashboard/assets/134255219/79192314-f42e-4a15-a97a-482af48bdd34)
